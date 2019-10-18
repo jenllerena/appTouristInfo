@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Peru Hop",
+    "description": "This project is really great.",
+    "slug": "PeruHop",
+    "privacy": "public",
+    "notification": {
+      "icon": "./assets/PeruHop-iconBar.png"
+    },
+    "sdkVersion": "32.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/peruhop-icon.png",
+    "splash": {
+      "image": "./assets/peruhop-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FE0000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.peruhop.bus.notification"
+    },
+    "android": {
+      "package": "com.peruhop.bus.notification",
+      "versionCode": 6
+    }
+  }
+}
